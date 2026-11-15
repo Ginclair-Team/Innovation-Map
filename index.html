@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>India Innovation Density Map</title>
+  <meta name="description" content="Startup presence, startup capital and foreign investment across Indian states and UTs. Every figure traced to a public source; gaps shown as gaps.">
+  <meta name="theme-color" content="#FBF3E7">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="__SITE_URL__/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="India Innovation Density Map">
+  <meta property="og:description" content="Startup presence, startup capital and foreign investment across Indian states and UTs. Every figure traced to a public source.">
+  <meta property="og:url" content="__SITE_URL__/">
+  <meta property="og:image" content="__SITE_URL__/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Map of India with states shaded by the Innovation Density Index">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="India Innovation Density Map">
+  <meta name="twitter:description" content="Startup presence, startup capital and foreign investment across Indian states and UTs.">
+  <meta name="twitter:image" content="__SITE_URL__/og-image.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/data/states.json" as="fetch" crossorigin="anonymous">
+  <link rel="preload" href="/data/india-states.topo.json" as="fetch" crossorigin="anonymous">
+</head>
+<body>
+  <a class="skip" href="#rankings-title">Skip to the rankings table</a>
+
+  <header class="site-header">
+    <p class="brand"><span class="brand-mark" aria-hidden="true"></span>Innovation Density</p>
+    <button type="button" class="btn" data-open-method>Methodology &amp; sources</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>India Innovation Density Map</h1>
+      <p class="lede">Startup presence, startup capital and foreign investment across Indian states and UTs. Every figure is traced to a public source. Where a source has no number, the map shows a gap.</p>
+      <div id="stats" class="stats" aria-label="National totals and coverage"></div>
+      <div id="controls" class="controls"></div>
+    </section>
+
+    <p id="load-error" class="load-error" role="alert" hidden></p>
+    <noscript><p class="load-error">This map needs JavaScript to draw. The underlying data is in <a href="/data/states.json">states.json</a>.</p></noscript>
+
+    <section class="stage" aria-label="Map and state detail">
+      <div class="map-col">
+        <div class="map-head">
+          <h2 id="map-title" class="map-title" aria-live="polite">Loading data</h2>
+          <div class="map-tools">
+            <label class="sr-only" for="jump">Jump to a state or UT</label>
+            <select id="jump"><option value="">Jump to a state or UT</option></select>
+            <button type="button" class="btn btn-quiet" id="explore" aria-pressed="false">Explore: zoom and pan</button>
+          </div>
+        </div>
+        <div class="map-frame">
+          <svg id="map" class="map" viewBox="0 0 600 660" preserveAspectRatio="xMidYMid meet"></svg>
+          <div id="tooltip" class="tooltip" role="status" hidden></div>
+          <div id="zoom-tools" class="zoom-tools" hidden>
+            <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+            <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+            <button type="button" id="zoom-reset" aria-label="Reset zoom">⟲</button>
+          </div>
+        </div>
+        <div id="legend" class="legend"></div>
+      </div>
+      <aside id="detail" class="detail" aria-label="State detail"></aside>
+    </section>
+
+    <section class="insights-section" aria-labelledby="insights-title">
+      <div class="section-head">
+        <h2 id="insights-title">The shape of it</h2>
+        <p class="lede-sm">Who leads on the selected metric, and how startup base and foreign capital line up. Both follow the controls above; click any bar or dot for its card.</p>
+      </div>
+      <div class="insights-grid">
+        <div id="leaders" class="panel"></div>
+        <div id="scatter" class="panel"></div>
+      </div>
+    </section>
+
+    <section class="rankings-section">
+      <div class="section-head">
+        <h2 id="rankings-title">Rankings</h2>
+        <p class="lede-sm">Everything on the map, as a table. Click a column to sort; click a state for its card.</p>
+      </div>
+      <div id="rankings"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="foot-years"></p>
+    <p>DPIIT recognition is self-selected registration, not a census of all startups. FDI is equity inflow across all sectors, not startup capital. <button type="button" class="link-btn" data-open-method>Read the methodology and sources</button>.</p>
+    <p>Map boundaries as per official Government of India sources; shown for data visualization only.</p>
+    <p>An independent, experimental index. Built by <a id="credit" href="https://ginclair.com/ginhouse" rel="noopener">ginclair.com/ginhouse</a>.</p>
+  </footer>
+
+  <dialog id="method" class="drawer" aria-labelledby="method-title">
+    <div class="drawer-inner">
+      <header class="drawer-head">
+        <h2 id="method-title">Methodology &amp; sources</h2>
+        <button type="button" class="icon-btn" id="method-close" aria-label="Close methodology">✕</button>
+      </header>
+      <div id="method-body" class="drawer-body"></div>
+    </div>
+  </dialog>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

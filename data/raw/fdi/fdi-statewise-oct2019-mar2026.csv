@@ -1,0 +1,45 @@
+# source_id: dpiit-fdi-factsheet-2026-03
+# source: DPIIT Quarterly Fact Sheet on Foreign Direct Investment (FDI) Inflow from April 2000 to March 2026 (updated up to March 2026)
+# url: https://www.dpiit.gov.in/static/uploads/2026/06/41192ca92c1de34eb064800fbffa0379.pdf
+# table: Annexure-C - State-wise FDI equity inflow from October 2019 to March 2026 (last page)
+# unit: cumulative FDI EQUITY inflow; INR crore and USD million as printed. Figures are provisional.
+# stated_total_usd_million: 341611.72   ("Gross-Total")
+# stated_total_inr_crore: 2725513.87
+# note: "State Not Indicated" is a source row; it is carried as a footnote and never assigned to a state.
+# note: Sikkim, Andaman & Nicobar Islands and Lakshadweep have no row in this table (not reported, not zero).
+# transcribed: 2026-11-15 from the PDF text layer of data/raw/fdi/DPIIT_FDI_Factsheet_Mar2026.pdf; re-check on refresh
+sr_no,state_name,inr_crore_text,usd_million_text,pct_of_total_text
+1,MAHARASHTRA,"8,59,196.43","1,07,094.00",31.35
+2,KARNATAKA,"5,58,383.24","70,588.64",20.66
+3,GUJARAT,"3,98,236.48","50,625.77",14.82
+4,DELHI,"3,50,493.29","43,989.39",12.88
+5,TAMIL NADU,"1,56,543.77","19,343.31",5.66
+6,HARYANA,"1,41,401.60","17,403.21",5.09
+7,TELANGANA,"1,06,141.56","13,020.89",3.81
+8,RAJASTHAN,"30,034.74","3,726.78",1.09
+9,UTTAR PRADESH,"24,707.61","3,020.48",0.88
+10,JHARKHAND,"19,476.05","2,677.93",0.78
+11,WEST BENGAL,"16,949.75","2,137.03",0.63
+12,KERALA,"14,163.40","1,752.68",0.51
+13,ANDHRA PRADESH,"14,119.64","1,729.86",0.51
+14,PUNJAB,"12,596.25","1,598.34",0.47
+15,MADHYA PRADESH,"5,361.28",692.98,0.2
+16,HIMACHAL PRADESH,"3,360.13",418.7,0.12
+17,ODISHA,"2,054.88",257.19,0.08
+18,CHANDIGARH,"2,147.23",250.95,0.07
+19,UTTARAKHAND,"1,906.92",242.16,0.07
+20,GOA,"1,824.86",230.87,0.07
+21,CHHATTISGARH,"1,877.68",220.87,0.06
+22,BIHAR,1669.72,218.01,0.06
+23,Dadra and Nagar Haveli and Daman and Diu,1360.44,181.29,0.05
+24,PUDUCHERRY,587,77.31,0.02
+25,JAMMU AND KASHMIR,394.89,43.92,0.01
+26,ASSAM,200.62,26.10,0.008
+27,ARUNACHAL PRADESH,53.25,7.03,0.002
+28,TRIPURA,11.72,1.45,0.0004
+29,MEGHALAYA,9.08,1.20,0.0004
+30,LADAKH,1.70,0.22,0.00007
+31,MANIPUR,1.01,0.11,0.00003
+32,NAGALAND,0.52,0.06,0.00002
+33,MIZORAM,0.44,0.05,0.00001
+34,State Not Indicated,246.69,32.93,0.01

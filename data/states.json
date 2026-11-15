@@ -1,0 +1,5458 @@
+{
+ "meta": {
+  "generated_at": "2026-11-15",
+  "data_checked_at": "2026-11-15",
+  "methodology_version": "IID-2M v1.0",
+  "default_view": "per_capita",
+  "scale_presets": {
+   "absolute": "linear",
+   "per_capita": "log"
+  },
+  "composite": {
+   "name": "Innovation Density Index",
+   "qualifier": "2-metric, experimental",
+   "components": [
+    "startups",
+    "fdi_usd_m"
+   ],
+   "weights": {
+    "startups": 0.5,
+    "fdi_usd_m": 0.5
+   },
+   "cohort_size": 33,
+   "excluded": [
+    {
+     "iso": "AN",
+     "state": "Andaman and Nicobar Islands",
+     "missing": [
+      "fdi_usd_m"
+     ]
+    },
+    {
+     "iso": "LD",
+     "state": "Lakshadweep",
+     "missing": [
+      "fdi_usd_m"
+     ]
+    },
+    {
+     "iso": "SK",
+     "state": "Sikkim",
+     "missing": [
+      "fdi_usd_m"
+     ]
+    }
+   ],
+   "medians": {
+    "absolute": {
+     "linear": 4,
+     "log": 63.7
+    },
+    "per_capita": {
+     "linear": 4.2,
+     "log": 46.8
+    }
+   }
+  },
+  "metrics": {
+   "startups": {
+    "label": "Startups",
+    "long_label": "DPIIT-recognised startups",
+    "period_label": "as on 30 Jun 2026",
+    "unit": {
+     "absolute": "entities",
+     "per_capita": "per million residents"
+    },
+    "partial": false,
+    "ranked": true,
+    "source_ids": [
+     "ls-usq-1446-2026"
+    ],
+    "stated_total": 240092,
+    "coverage": 36,
+    "medians": {
+     "absolute": 2327.5,
+     "per_capita": 91.8305
+    },
+    "ranges": {
+     "absolute": {
+      "min": 3,
+      "max": 41440
+     },
+     "per_capita": {
+      "min": 29.661,
+      "max": 990.9494
+     }
+    },
+    "top5": {
+     "isos": [
+      "MH",
+      "KA",
+      "UP",
+      "DL",
+      "GJ"
+     ],
+     "share_pct": 55.2
+    }
+   },
+   "fdi_usd_m": {
+    "label": "FDI",
+    "long_label": "FDI equity inflow",
+    "period_label": "Oct 2019 - Mar 2026",
+    "unit": {
+     "absolute": "USD million",
+     "per_capita": "USD per resident"
+    },
+    "partial": false,
+    "ranked": true,
+    "source_ids": [
+     "dpiit-fdi-factsheet-2026-03"
+    ],
+    "stated_total": 341611.72,
+    "state_not_indicated": {
+     "value": 32.93,
+     "original_cell_text": "32.93",
+     "unit": "USD million",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "year": "Oct 2019 - Mar 2026"
+    },
+    "coverage": 33,
+    "medians": {
+     "absolute": 257.19,
+     "per_capita": 32.208
+    },
+    "ranges": {
+     "absolute": {
+      "min": 0.05,
+      "max": 107094
+     },
+     "per_capita": {
+      "min": 0.0262,
+      "max": 1951.6145
+     }
+    },
+    "top5": {
+     "isos": [
+      "MH",
+      "KA",
+      "GJ",
+      "DL",
+      "TN"
+     ],
+     "share_pct": 85.4
+    }
+   },
+   "funding_usd_m": {
+    "label": "Funding",
+    "long_label": "Tech startup funding",
+    "period_label": "2025",
+    "unit": {
+     "absolute": "USD million",
+     "per_capita": "USD per resident"
+    },
+    "partial": true,
+    "ranked": false,
+    "source_ids": [
+     "tracxn-maharashtra-2025",
+     "tracxn-karnataka-2025-via-theprint",
+     "tracxn-tamil-nadu-2025",
+     "tracxn-telangana-2025"
+    ],
+    "stated_total": null,
+    "coverage": 4,
+    "medians": {
+     "absolute": 1577.5,
+     "per_capita": 13.8902
+    },
+    "ranges": {
+     "absolute": {
+      "min": 236,
+      "max": 3800
+     },
+     "per_capita": {
+      "min": 6.1083,
+      "max": 55.1028
+     }
+    }
+   }
+  },
+  "population": {
+   "label": "Projected population, 1 Mar 2026",
+   "source_id": "ncp-population-projections-2011-2036",
+   "stated_total": 1423435000
+  },
+  "context": {
+   "fdi_fy2025_26_usd_m": {
+    "label": "FDI equity inflow, FY2025-26",
+    "unit": "USD million",
+    "source_id": "ls-usq-328-2026"
+   },
+   "sisfs": {
+    "label": "Startup India Seed Fund Scheme, as on 30 Jun 2026",
+    "source_id": "ls-usq-1446-2026"
+   }
+  }
+ },
+ "states": [
+  {
+   "state": "Andaman and Nicobar Islands",
+   "iso": "AN",
+   "lgd": 35,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 108,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "108",
+     "original_state_name": "Andaman and Nicobar Islands",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 266.0099,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The DPIIT state-wise table has no row for this State/UT. That is a gap in the source, not a zero."
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 406000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "406",
+    "original_state_name": "Andaman & Nicobar Islands",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": 1,
+     "funds_approved_rs_crore": 0.04,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "1 | 0.040"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 29,
+      "of": 36,
+      "linear": 0.25,
+      "log": 37.59,
+      "x_median": 0.05,
+      "share_pct": 0.04
+     },
+     "per_capita": {
+      "rank": 9,
+      "of": 36,
+      "linear": 24.59,
+      "log": 62.52,
+      "x_median": 2.9
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "coverage": "1/2 metrics",
+    "in_cohort": false,
+    "missing": [
+     "fdi_usd_m"
+    ],
+    "absolute": null,
+    "per_capita": null
+   }
+  },
+  {
+   "state": "Andhra Pradesh",
+   "iso": "AP",
+   "lgd": 28,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 4707,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "4,707",
+     "original_state_name": "Andhra Pradesh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 87.6389,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 1729.86,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "1,729.86",
+     "original_state_name": "ANDHRA PRADESH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 13",
+     "provisional": true,
+     "inr_crore": 14119.64,
+     "per_capita": {
+      "value": 32.208,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 53709000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "53,709",
+    "original_state_name": "Andhra Pradesh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 609,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "609"
+    },
+    "sisfs": {
+     "startups_supported": 99,
+     "funds_approved_rs_crore": 13.965,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "99 | 13.965"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 14,
+      "of": 36,
+      "linear": 11.35,
+      "log": 77.18,
+      "x_median": 2.02,
+      "share_pct": 1.96
+     },
+     "per_capita": {
+      "rank": 21,
+      "of": 36,
+      "linear": 6.03,
+      "log": 30.88,
+      "x_median": 0.95
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 13,
+      "of": 33,
+      "linear": 1.62,
+      "log": 71.7,
+      "x_median": 6.73,
+      "share_pct": 0.51
+     },
+     "per_capita": {
+      "rank": 17,
+      "of": 33,
+      "linear": 1.65,
+      "log": 63.42,
+      "x_median": 1
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 6.5,
+      "rank": 14,
+      "of": 33
+     },
+     "log": {
+      "score": 71.2,
+      "rank": 13,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3.8,
+      "rank": 19,
+      "of": 33
+     },
+     "log": {
+      "score": 46.8,
+      "rank": 17,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "iso": "AR",
+   "lgd": 12,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 102,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "102",
+     "original_state_name": "Arunachal Pradesh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 63.591,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 7.03,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "7.03",
+     "original_state_name": "ARUNACHAL PRADESH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 27",
+     "provisional": true,
+     "inr_crore": 53.25,
+     "per_capita": {
+      "value": 4.3828,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 1604000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "1,604",
+    "original_state_name": "Arunachal Pradesh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "original_cell_text": "-",
+     "note": "The source prints \"-\" for this year."
+    },
+    "sisfs": {
+     "startups_supported": 2,
+     "funds_approved_rs_crore": 0.3,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "2 | 0.300"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 31,
+      "of": 36,
+      "linear": 0.24,
+      "log": 36.99,
+      "x_median": 0.04,
+      "share_pct": 0.04
+     },
+     "per_capita": {
+      "rank": 28,
+      "of": 36,
+      "linear": 3.53,
+      "log": 21.73,
+      "x_median": 0.69
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 27,
+      "of": 33,
+      "linear": 0.01,
+      "log": 33.93,
+      "x_median": 0.03,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 24,
+      "of": 33,
+      "linear": 0.22,
+      "log": 45.64,
+      "x_median": 0.14
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.1,
+      "rank": 31,
+      "of": 33
+     },
+     "log": {
+      "score": 26.4,
+      "rank": 28,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 1.8,
+      "rank": 27,
+      "of": 33
+     },
+     "log": {
+      "score": 33.3,
+      "rank": 25,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Assam",
+   "iso": "AS",
+   "lgd": 18,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 2351,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "2,351",
+     "original_state_name": "Assam",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 64.0303,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 26.1,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "26.10",
+     "original_state_name": "ASSAM",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 26",
+     "provisional": true,
+     "inr_crore": 200.62,
+     "per_capita": {
+      "value": 0.7108,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 36717000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "36,717",
+    "original_state_name": "Assam",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 2,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "2"
+    },
+    "sisfs": {
+     "startups_supported": 52,
+     "funds_approved_rs_crore": 7.479,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "52 | 7.479"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 18,
+      "of": 36,
+      "linear": 5.67,
+      "log": 69.9,
+      "x_median": 1.01,
+      "share_pct": 0.98
+     },
+     "per_capita": {
+      "rank": 27,
+      "of": 36,
+      "linear": 3.58,
+      "log": 21.93,
+      "x_median": 0.7
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 26,
+      "of": 33,
+      "linear": 0.02,
+      "log": 42.93,
+      "x_median": 0.1,
+      "share_pct": 0.01
+     },
+     "per_capita": {
+      "rank": 28,
+      "of": 33,
+      "linear": 0.04,
+      "log": 29.42,
+      "x_median": 0.02
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 2.8,
+      "rank": 19,
+      "of": 33
+     },
+     "log": {
+      "score": 52.1,
+      "rank": 22,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 1.7,
+      "rank": 28,
+      "of": 33
+     },
+     "log": {
+      "score": 25.2,
+      "rank": 27,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Bihar",
+   "iso": "BR",
+   "lgd": 10,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 5527,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "5,527",
+     "original_state_name": "Bihar",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 41.7873,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 218.01,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "218.01",
+     "original_state_name": "BIHAR",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 22",
+     "provisional": true,
+     "inr_crore": 1669.72,
+     "per_capita": {
+      "value": 1.6483,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 132265000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "132,265",
+    "original_state_name": "Bihar",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 2,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "2"
+    },
+    "sisfs": {
+     "startups_supported": 61,
+     "funds_approved_rs_crore": 10.255,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "61 | 10.255"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 13,
+      "of": 36,
+      "linear": 13.33,
+      "log": 78.87,
+      "x_median": 2.37,
+      "share_pct": 2.3
+     },
+     "per_capita": {
+      "rank": 34,
+      "of": 36,
+      "linear": 1.26,
+      "log": 9.77,
+      "x_median": 0.46
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 22,
+      "of": 33,
+      "linear": 0.2,
+      "log": 57.49,
+      "x_median": 0.85,
+      "share_pct": 0.06
+     },
+     "per_capita": {
+      "rank": 26,
+      "of": 33,
+      "linear": 0.08,
+      "log": 36.92,
+      "x_median": 0.05
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 6.7,
+      "rank": 13,
+      "of": 33
+     },
+     "log": {
+      "score": 65.2,
+      "rank": 16,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 0.6,
+      "rank": 32,
+      "of": 33
+     },
+     "log": {
+      "score": 22.8,
+      "rank": 28,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Chandigarh",
+   "iso": "CH",
+   "lgd": 4,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 740,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "740",
+     "original_state_name": "Chandigarh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 584.0568,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 250.95,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "250.95",
+     "original_state_name": "CHANDIGARH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 18",
+     "provisional": true,
+     "inr_crore": 2147.23,
+     "per_capita": {
+      "value": 198.0663,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 1267000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "1,267",
+    "original_state_name": "Chandigarh *",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": 19,
+     "funds_approved_rs_crore": 3.24,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "19 | 3.240"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 24,
+      "of": 36,
+      "linear": 1.78,
+      "log": 57.78,
+      "x_median": 0.32,
+      "share_pct": 0.31
+     },
+     "per_capita": {
+      "rank": 2,
+      "of": 36,
+      "linear": 57.67,
+      "log": 84.93,
+      "x_median": 6.36
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 18,
+      "of": 33,
+      "linear": 0.23,
+      "log": 58.45,
+      "x_median": 0.98,
+      "share_pct": 0.07
+     },
+     "per_capita": {
+      "rank": 8,
+      "of": 33,
+      "linear": 10.15,
+      "log": 79.61,
+      "x_median": 6.15
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 1,
+      "rank": 24,
+      "of": 33
+     },
+     "log": {
+      "score": 52.1,
+      "rank": 23,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 33.9,
+      "rank": 4,
+      "of": 33
+     },
+     "log": {
+      "score": 82.2,
+      "rank": 2,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Chhattisgarh",
+   "iso": "CG",
+   "lgd": 22,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 2587,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "2,587",
+     "original_state_name": "Chhattisgarh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 82.8874,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 220.87,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "220.87",
+     "original_state_name": "CHHATTISGARH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 21",
+     "provisional": true,
+     "inr_crore": 1877.68,
+     "per_capita": {
+      "value": 7.0767,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 31211000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "31,211",
+    "original_state_name": "Chhattisgarh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 86,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "86"
+    },
+    "sisfs": {
+     "startups_supported": 30,
+     "funds_approved_rs_crore": 3.896,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "30 | 3.896"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 17,
+      "of": 36,
+      "linear": 6.24,
+      "log": 70.9,
+      "x_median": 1.11,
+      "share_pct": 1.08
+     },
+     "per_capita": {
+      "rank": 23,
+      "of": 36,
+      "linear": 5.54,
+      "log": 29.29,
+      "x_median": 0.9
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 21,
+      "of": 33,
+      "linear": 0.21,
+      "log": 57.58,
+      "x_median": 0.86,
+      "share_pct": 0.06
+     },
+     "per_capita": {
+      "rank": 22,
+      "of": 33,
+      "linear": 0.36,
+      "log": 49.91,
+      "x_median": 0.22
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 3.2,
+      "rank": 18,
+      "of": 33
+     },
+     "log": {
+      "score": 60.1,
+      "rank": 18,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 2.9,
+      "rank": 25,
+      "of": 33
+     },
+     "log": {
+      "score": 39.2,
+      "rank": 24,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "iso": "DH",
+   "lgd": 38,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 102,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "102",
+     "original_state_name": "Dadra and Nagar Haveli and Daman and Diu",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 66.1908,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 181.29,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "181.29",
+     "original_state_name": "Dadra and Nagar Haveli and Daman and Diu",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 23",
+     "provisional": true,
+     "inr_crore": 1360.44,
+     "per_capita": {
+      "value": 117.6444,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 1541000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "836 + 705",
+    "original_state_name": "Dadra & Nagar Haveli + Daman Diu",
+    "unit": "persons",
+    "note": "Sum of two rows the source prints separately for the two former UTs."
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": null,
+     "funds_approved_rs_crore": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "Not listed in the source annexure. Not listed is not the same as zero."
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 31,
+      "of": 36,
+      "linear": 0.24,
+      "log": 36.99,
+      "x_median": 0.04,
+      "share_pct": 0.04
+     },
+     "per_capita": {
+      "rank": 26,
+      "of": 36,
+      "linear": 3.8,
+      "log": 22.88,
+      "x_median": 0.72
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 23,
+      "of": 33,
+      "linear": 0.17,
+      "log": 56.22,
+      "x_median": 0.7,
+      "share_pct": 0.05
+     },
+     "per_capita": {
+      "rank": 10,
+      "of": 33,
+      "linear": 6.03,
+      "log": 74.96,
+      "x_median": 3.65
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.2,
+      "rank": 28,
+      "of": 33
+     },
+     "log": {
+      "score": 37.6,
+      "rank": 26,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 4.9,
+      "rank": 15,
+      "of": 33
+     },
+     "log": {
+      "score": 48.5,
+      "rank": 16,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Delhi",
+   "iso": "DL",
+   "lgd": 7,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 22336,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "22,336",
+     "original_state_name": "Delhi",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 990.9494,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 43989.39,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "43,989.39",
+     "original_state_name": "DELHI",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 4",
+     "provisional": true,
+     "inr_crore": 350493.29,
+     "per_capita": {
+      "value": 1951.6145,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 22540000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "22,540",
+    "original_state_name": "NCT of Delhi",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": 293,
+     "funds_approved_rs_crore": 50.577,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "293 | 50.577"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 4,
+      "of": 36,
+      "linear": 53.9,
+      "log": 93.52,
+      "x_median": 9.6,
+      "share_pct": 9.3
+     },
+     "per_capita": {
+      "rank": 1,
+      "of": 36,
+      "linear": 100,
+      "log": 100,
+      "x_median": 10.79
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 4,
+      "of": 33,
+      "linear": 41.08,
+      "log": 93.9,
+      "x_median": 171.04,
+      "share_pct": 12.88
+     },
+     "per_capita": {
+      "rank": 1,
+      "of": 33,
+      "linear": 100,
+      "log": 100,
+      "x_median": 60.59
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 47.5,
+      "rank": 4,
+      "of": 33
+     },
+     "log": {
+      "score": 92.8,
+      "rank": 4,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 100,
+      "rank": 1,
+      "of": 33
+     },
+     "log": {
+      "score": 100,
+      "rank": 1,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Goa",
+   "iso": "GA",
+   "lgd": 30,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 861,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "861",
+     "original_state_name": "Goa",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 538.7985,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 230.87,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "230.87",
+     "original_state_name": "GOA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 20",
+     "provisional": true,
+     "inr_crore": 1824.86,
+     "per_capita": {
+      "value": 144.4743,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 1598000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "1,598",
+    "original_state_name": "Goa",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 34,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "34"
+    },
+    "sisfs": {
+     "startups_supported": 29,
+     "funds_approved_rs_crore": 4.355,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "29 | 4.355"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 23,
+      "of": 36,
+      "linear": 2.07,
+      "log": 59.36,
+      "x_median": 0.37,
+      "share_pct": 0.36
+     },
+     "per_capita": {
+      "rank": 3,
+      "of": 36,
+      "linear": 52.96,
+      "log": 82.63,
+      "x_median": 5.87
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 20,
+      "of": 33,
+      "linear": 0.22,
+      "log": 57.88,
+      "x_median": 0.9,
+      "share_pct": 0.07
+     },
+     "per_capita": {
+      "rank": 9,
+      "of": 33,
+      "linear": 7.4,
+      "log": 76.79,
+      "x_median": 4.49
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 1.1,
+      "rank": 23,
+      "of": 33
+     },
+     "log": {
+      "score": 52.8,
+      "rank": 21,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 30.2,
+      "rank": 7,
+      "of": 33
+     },
+     "log": {
+      "score": 79.6,
+      "rank": 6,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Gujarat",
+   "iso": "GJ",
+   "lgd": 24,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 21019,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "21,019",
+     "original_state_name": "Gujarat",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 283.7108,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 50625.77,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "50,625.77",
+     "original_state_name": "GUJARAT",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 3",
+     "provisional": true,
+     "inr_crore": 398236.48,
+     "per_capita": {
+      "value": 683.3379,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 74086000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "74,086",
+    "original_state_name": "Gujarat",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 5713,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "5,713"
+    },
+    "sisfs": {
+     "startups_supported": 294,
+     "funds_approved_rs_crore": 51.686,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "294 | 51.686"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 5,
+      "of": 36,
+      "linear": 50.72,
+      "log": 92.88,
+      "x_median": 9.03,
+      "share_pct": 8.75
+     },
+     "per_capita": {
+      "rank": 8,
+      "of": 36,
+      "linear": 26.43,
+      "log": 64.36,
+      "x_median": 3.09
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 3,
+      "of": 33,
+      "linear": 47.27,
+      "log": 94.86,
+      "x_median": 196.84,
+      "share_pct": 14.82
+     },
+     "per_capita": {
+      "rank": 4,
+      "of": 33,
+      "linear": 35.01,
+      "log": 90.65,
+      "x_median": 21.22
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 49,
+      "rank": 3,
+      "of": 33
+     },
+     "log": {
+      "score": 92.9,
+      "rank": 3,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 30.7,
+      "rank": 6,
+      "of": 33
+     },
+     "log": {
+      "score": 77.3,
+      "rank": 7,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Haryana",
+   "iso": "HR",
+   "lgd": 6,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 12482,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "12,482",
+     "original_state_name": "Haryana",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 398.7987,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 17403.21,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "17,403.21",
+     "original_state_name": "HARYANA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 6",
+     "provisional": true,
+     "inr_crore": 141401.6,
+     "per_capita": {
+      "value": 556.0309,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 31299000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "31,299",
+    "original_state_name": "Haryana",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 4526,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "4,526"
+    },
+    "sisfs": {
+     "startups_supported": 203,
+     "funds_approved_rs_crore": 34.72,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "203 | 34.720"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 8,
+      "of": 36,
+      "linear": 30.12,
+      "log": 87.41,
+      "x_median": 5.36,
+      "share_pct": 5.2
+     },
+     "per_capita": {
+      "rank": 4,
+      "of": 36,
+      "linear": 38.4,
+      "log": 74.06,
+      "x_median": 4.34
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 6,
+      "of": 33,
+      "linear": 16.25,
+      "log": 87.53,
+      "x_median": 67.67,
+      "share_pct": 5.09
+     },
+     "per_capita": {
+      "rank": 5,
+      "of": 33,
+      "linear": 28.49,
+      "log": 88.81,
+      "x_median": 17.26
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 23.2,
+      "rank": 7,
+      "of": 33
+     },
+     "log": {
+      "score": 85.7,
+      "rank": 6,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 33.4,
+      "rank": 5,
+      "of": 33
+     },
+     "log": {
+      "score": 81.3,
+      "rank": 4,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Himachal Pradesh",
+   "iso": "HP",
+   "lgd": 2,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 898,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "898",
+     "original_state_name": "Himachal Pradesh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 118.4853,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 418.7,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "418.7",
+     "original_state_name": "HIMACHAL PRADESH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 16",
+     "provisional": true,
+     "inr_crore": 3360.13,
+     "per_capita": {
+      "value": 55.2448,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 7579000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "7,579",
+    "original_state_name": "Himachal Pradesh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 56,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "56"
+    },
+    "sisfs": {
+     "startups_supported": 26,
+     "funds_approved_rs_crore": 4.22,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "26 | 4.220"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 22,
+      "of": 36,
+      "linear": 2.16,
+      "log": 59.81,
+      "x_median": 0.39,
+      "share_pct": 0.37
+     },
+     "per_capita": {
+      "rank": 14,
+      "of": 36,
+      "linear": 9.24,
+      "log": 39.47,
+      "x_median": 1.29
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 16,
+      "of": 33,
+      "linear": 0.39,
+      "log": 61.97,
+      "x_median": 1.63,
+      "share_pct": 0.12
+     },
+     "per_capita": {
+      "rank": 12,
+      "of": 33,
+      "linear": 2.83,
+      "log": 68.23,
+      "x_median": 1.72
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 1.2,
+      "rank": 22,
+      "of": 33
+     },
+     "log": {
+      "score": 55.1,
+      "rank": 20,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 6,
+      "rank": 13,
+      "of": 33
+     },
+     "log": {
+      "score": 53.5,
+      "rank": 13,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Jammu and Kashmir",
+   "iso": "JK",
+   "lgd": 1,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 1628,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "1,628",
+     "original_state_name": "Jammu and Kashmir",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 117.156,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 43.92,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "43.92",
+     "original_state_name": "JAMMU AND KASHMIR",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 25",
+     "provisional": true,
+     "inr_crore": 394.89,
+     "per_capita": {
+      "value": 3.1606,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 13896000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "13,896",
+    "original_state_name": "Jammu & Kashmir (UT)",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": 22,
+     "funds_approved_rs_crore": 3.96,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "22 | 3.960"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 21,
+      "of": 36,
+      "linear": 3.92,
+      "log": 66.05,
+      "x_median": 0.7,
+      "share_pct": 0.68
+     },
+     "per_capita": {
+      "rank": 15,
+      "of": 36,
+      "linear": 9.1,
+      "log": 39.15,
+      "x_median": 1.28
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 25,
+      "of": 33,
+      "linear": 0.04,
+      "log": 46.5,
+      "x_median": 0.17,
+      "share_pct": 0.01
+     },
+     "per_capita": {
+      "rank": 25,
+      "of": 33,
+      "linear": 0.16,
+      "log": 42.72,
+      "x_median": 0.1
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 2,
+      "rank": 21,
+      "of": 33
+     },
+     "log": {
+      "score": 51.4,
+      "rank": 24,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 4.6,
+      "rank": 16,
+      "of": 33
+     },
+     "log": {
+      "score": 40.6,
+      "rank": 22,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Jharkhand",
+   "iso": "JH",
+   "lgd": 20,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 2304,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "2,304",
+     "original_state_name": "Jharkhand",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 56.2527,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 2677.93,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "2,677.93",
+     "original_state_name": "JHARKHAND",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 10",
+     "provisional": true,
+     "inr_crore": 19476.05,
+     "per_capita": {
+      "value": 65.3823,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 40958000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "40,958",
+    "original_state_name": "Jharkhand",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 4,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "4"
+    },
+    "sisfs": {
+     "startups_supported": 22,
+     "funds_approved_rs_crore": 3.945,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "22 | 3.945"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 19,
+      "of": 36,
+      "linear": 5.55,
+      "log": 69.69,
+      "x_median": 0.99,
+      "share_pct": 0.96
+     },
+     "per_capita": {
+      "rank": 31,
+      "of": 36,
+      "linear": 2.77,
+      "log": 18.24,
+      "x_median": 0.61
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 10,
+      "of": 33,
+      "linear": 2.5,
+      "log": 74.7,
+      "x_median": 10.41,
+      "share_pct": 0.78
+     },
+     "per_capita": {
+      "rank": 11,
+      "of": 33,
+      "linear": 3.35,
+      "log": 69.73,
+      "x_median": 2.03
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 4,
+      "rank": 16,
+      "of": 33
+     },
+     "log": {
+      "score": 67.9,
+      "rank": 14,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3,
+      "rank": 23,
+      "of": 33
+     },
+     "log": {
+      "score": 43.5,
+      "rank": 19,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Karnataka",
+   "iso": "KA",
+   "lgd": 29,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 24026,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "24,026",
+     "original_state_name": "Karnataka",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 348.3948,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 70588.64,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "70,588.64",
+     "original_state_name": "KARNATAKA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 2",
+     "provisional": true,
+     "inr_crore": 558383.24,
+     "per_capita": {
+      "value": 1023.5875,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": 3800,
+     "unit": "USD million",
+     "year": "2025",
+     "period_start": "2025-01-01",
+     "period_end": null,
+     "period_type": "publisher's 2025 window; cutoff date not printed",
+     "status": "reported",
+     "original_cell_text": "$3.8 billion",
+     "original_state_name": "Karnataka",
+     "source_id": "tracxn-karnataka-2025-via-theprint",
+     "locator": "Headline total",
+     "provisional": false,
+     "read_from": "press report quoting the publisher's report",
+     "note": "ThePrint, citing the Tracxn Geo Annual Report - Karnataka Tech 2025: \"Karnataka-based technology companies raised $3.8 billion in the calendar year 2025.\" The publisher's own page was not read. One other outlet (Analytics India Magazine) reports $3.6 billion from the same report.",
+     "per_capita": {
+      "value": 55.1028,
+      "unit": "USD per resident"
+     }
+    }
+   },
+   "population": {
+    "value": 68962000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "68,962",
+    "original_state_name": "Karnataka",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 12939,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "12,939"
+    },
+    "sisfs": {
+     "startups_supported": 542,
+     "funds_approved_rs_crore": 104.869,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "542 | 104.869"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 2,
+      "of": 36,
+      "linear": 57.97,
+      "log": 94.28,
+      "x_median": 10.32,
+      "share_pct": 10.01
+     },
+     "per_capita": {
+      "rank": 6,
+      "of": 36,
+      "linear": 33.16,
+      "log": 70.21,
+      "x_median": 3.79
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 2,
+      "of": 33,
+      "linear": 65.91,
+      "log": 97.14,
+      "x_median": 274.46,
+      "share_pct": 20.66
+     },
+     "per_capita": {
+      "rank": 2,
+      "of": 33,
+      "linear": 52.45,
+      "log": 94.25,
+      "x_median": 31.78
+     }
+    },
+    "funding_usd_m": {
+     "absolute": {
+      "rank": null,
+      "of": null,
+      "linear": 100,
+      "log": 100,
+      "x_median": 2.41
+     },
+     "per_capita": {
+      "rank": null,
+      "of": null,
+      "linear": 100,
+      "log": 100,
+      "x_median": 3.97
+     }
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 61.9,
+      "rank": 2,
+      "of": 33
+     },
+     "log": {
+      "score": 94.9,
+      "rank": 2,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 42.8,
+      "rank": 2,
+      "of": 33
+     },
+     "log": {
+      "score": 82.1,
+      "rank": 3,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Kerala",
+   "iso": "KL",
+   "lgd": 32,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 9092,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "9,092",
+     "original_state_name": "Kerala",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 251.1117,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 1752.68,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "1,752.68",
+     "original_state_name": "KERALA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 12",
+     "provisional": true,
+     "inr_crore": 14163.4,
+     "per_capita": {
+      "value": 48.4072,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 36207000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "36,207",
+    "original_state_name": "Kerala",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 377,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "377"
+    },
+    "sisfs": {
+     "startups_supported": 102,
+     "funds_approved_rs_crore": 17.336,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "102 | 17.336"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 9,
+      "of": 36,
+      "linear": 21.93,
+      "log": 84.09,
+      "x_median": 3.91,
+      "share_pct": 3.79
+     },
+     "per_capita": {
+      "rank": 10,
+      "of": 36,
+      "linear": 23.04,
+      "log": 60.88,
+      "x_median": 2.73
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 12,
+      "of": 33,
+      "linear": 1.64,
+      "log": 71.79,
+      "x_median": 6.81,
+      "share_pct": 0.51
+     },
+     "per_capita": {
+      "rank": 14,
+      "of": 33,
+      "linear": 2.48,
+      "log": 67.05,
+      "x_median": 1.5
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 11.8,
+      "rank": 10,
+      "of": 33
+     },
+     "log": {
+      "score": 75.7,
+      "rank": 10,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 12.7,
+      "rank": 10,
+      "of": 33
+     },
+     "log": {
+      "score": 63.7,
+      "rank": 10,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Ladakh",
+   "iso": "LA",
+   "lgd": 37,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 25,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "25",
+     "original_state_name": "Ladakh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 81.9672,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 0.22,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "0.22",
+     "original_state_name": "LADAKH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 30",
+     "provisional": true,
+     "inr_crore": 1.7,
+     "per_capita": {
+      "value": 0.7213,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 305000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "305",
+    "original_state_name": "Ladakh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": null,
+     "funds_approved_rs_crore": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "Not listed in the source annexure. Not listed is not the same as zero."
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 34,
+      "of": 36,
+      "linear": 0.05,
+      "log": 22.24,
+      "x_median": 0.01,
+      "share_pct": 0.01
+     },
+     "per_capita": {
+      "rank": 24,
+      "of": 36,
+      "linear": 5.44,
+      "log": 28.97,
+      "x_median": 0.89
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 30,
+      "of": 33,
+      "linear": 0,
+      "log": 10.16,
+      "x_median": 0,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 27,
+      "of": 33,
+      "linear": 0.04,
+      "log": 29.55,
+      "x_median": 0.02
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0,
+      "rank": 33,
+      "of": 33
+     },
+     "log": {
+      "score": 5.1,
+      "rank": 33,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 2.7,
+      "rank": 26,
+      "of": 33
+     },
+     "log": {
+      "score": 28.9,
+      "rank": 26,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Lakshadweep",
+   "iso": "LD",
+   "lgd": 31,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 3,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "3",
+     "original_state_name": "Lakshadweep",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 42.8571,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The DPIIT state-wise table has no row for this State/UT. That is a gap in the source, not a zero."
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 70000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "70",
+    "original_state_name": "Lakshadweep",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": null,
+     "funds_approved_rs_crore": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "Not listed in the source annexure. Not listed is not the same as zero."
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 36,
+      "of": 36,
+      "linear": 0,
+      "log": 0,
+      "x_median": 0,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 33,
+      "of": 36,
+      "linear": 1.37,
+      "log": 10.49,
+      "x_median": 0.47
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "coverage": "1/2 metrics",
+    "in_cohort": false,
+    "missing": [
+     "fdi_usd_m"
+    ],
+    "absolute": null,
+    "per_capita": null
+   }
+  },
+  {
+   "state": "Madhya Pradesh",
+   "iso": "MP",
+   "lgd": 23,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 8194,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "8,194",
+     "original_state_name": "Madhya Pradesh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 91.3764,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 692.98,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "692.98",
+     "original_state_name": "MADHYA PRADESH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 15",
+     "provisional": true,
+     "inr_crore": 5361.28,
+     "per_capita": {
+      "value": 7.7279,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 89673000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "89,673",
+    "original_state_name": "Madhya Pradesh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 80,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "80"
+    },
+    "sisfs": {
+     "startups_supported": 152,
+     "funds_approved_rs_crore": 22.574,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "152 | 22.574"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 11,
+      "of": 36,
+      "linear": 19.77,
+      "log": 83,
+      "x_median": 3.52,
+      "share_pct": 3.41
+     },
+     "per_capita": {
+      "rank": 19,
+      "of": 36,
+      "linear": 6.42,
+      "log": 32.07,
+      "x_median": 1
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 15,
+      "of": 33,
+      "linear": 0.65,
+      "log": 65.42,
+      "x_median": 2.69,
+      "share_pct": 0.2
+     },
+     "per_capita": {
+      "rank": 21,
+      "of": 33,
+      "linear": 0.39,
+      "log": 50.69,
+      "x_median": 0.24
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 10.2,
+      "rank": 12,
+      "of": 33
+     },
+     "log": {
+      "score": 71.8,
+      "rank": 12,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3.4,
+      "rank": 20,
+      "of": 33
+     },
+     "log": {
+      "score": 41,
+      "rank": 21,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Maharashtra",
+   "iso": "MH",
+   "lgd": 27,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 41440,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "41,440",
+     "original_state_name": "Maharashtra",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 320.4751,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 107094,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "1,07,094.00",
+     "original_state_name": "MAHARASHTRA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 1",
+     "provisional": true,
+     "inr_crore": 859196.43,
+     "per_capita": {
+      "value": 828.2086,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": 2500,
+     "unit": "USD million",
+     "year": "2025",
+     "period_start": "2025-01-01",
+     "period_end": null,
+     "period_type": "publisher's 2025 window; cutoff date not printed",
+     "status": "reported",
+     "original_cell_text": "$2.5B",
+     "original_state_name": "Maharashtra",
+     "source_id": "tracxn-maharashtra-2025",
+     "locator": "Headline total",
+     "provisional": false,
+     "read_from": "publisher page",
+     "note": "\"A total of $2.5B was raised by Maharashtra Tech companies in 2025.\"",
+     "per_capita": {
+      "value": 19.3337,
+      "unit": "USD per resident"
+     }
+    }
+   },
+   "population": {
+    "value": 129308000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "129,308",
+    "original_state_name": "Maharashtra",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 18418,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "18,418"
+    },
+    "sisfs": {
+     "startups_supported": 665,
+     "funds_approved_rs_crore": 117.318,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "665 | 117.318"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 1,
+      "of": 36,
+      "linear": 100,
+      "log": 100,
+      "x_median": 17.8,
+      "share_pct": 17.26
+     },
+     "per_capita": {
+      "rank": 7,
+      "of": 36,
+      "linear": 30.25,
+      "log": 67.83,
+      "x_median": 3.49
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 1,
+      "of": 33,
+      "linear": 100,
+      "log": 100,
+      "x_median": 416.4,
+      "share_pct": 31.35
+     },
+     "per_capita": {
+      "rank": 3,
+      "of": 33,
+      "linear": 42.44,
+      "log": 92.36,
+      "x_median": 25.71
+     }
+    },
+    "funding_usd_m": {
+     "absolute": {
+      "rank": null,
+      "of": null,
+      "linear": 63.52,
+      "log": 84.93,
+      "x_median": 1.58
+     },
+     "per_capita": {
+      "rank": null,
+      "of": null,
+      "linear": 26.99,
+      "log": 52.38,
+      "x_median": 1.39
+     }
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 100,
+      "rank": 1,
+      "of": 33
+     },
+     "log": {
+      "score": 100,
+      "rank": 1,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 36.3,
+      "rank": 3,
+      "of": 33
+     },
+     "log": {
+      "score": 79.9,
+      "rank": 5,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Manipur",
+   "iso": "MN",
+   "lgd": 14,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 295,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "295",
+     "original_state_name": "Manipur",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 89.0969,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 0.11,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "0.11",
+     "original_state_name": "MANIPUR",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 31",
+     "provisional": true,
+     "inr_crore": 1.01,
+     "per_capita": {
+      "value": 0.0332,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 3311000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "3,311",
+    "original_state_name": "Manipur",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 0,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "rounded_zero",
+     "original_cell_text": "0"
+    },
+    "sisfs": {
+     "startups_supported": 9,
+     "funds_approved_rs_crore": 1.1,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "9 | 1.100"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 25,
+      "of": 36,
+      "linear": 0.7,
+      "log": 48.13,
+      "x_median": 0.13,
+      "share_pct": 0.12
+     },
+     "per_capita": {
+      "rank": 20,
+      "of": 36,
+      "linear": 6.18,
+      "log": 31.35,
+      "x_median": 0.97
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 31,
+      "of": 33,
+      "linear": 0,
+      "log": 5.41,
+      "x_median": 0,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 32,
+      "of": 33,
+      "linear": 0,
+      "log": 2.11,
+      "x_median": 0
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.3,
+      "rank": 25,
+      "of": 33
+     },
+     "log": {
+      "score": 19.4,
+      "rank": 30,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3,
+      "rank": 22,
+      "of": 33
+     },
+     "log": {
+      "score": 16.4,
+      "rank": 30,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Meghalaya",
+   "iso": "ML",
+   "lgd": 17,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 106,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "106",
+     "original_state_name": "Meghalaya",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 30.814,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 1.2,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "1.20",
+     "original_state_name": "MEGHALAYA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 29",
+     "provisional": true,
+     "inr_crore": 9.08,
+     "per_capita": {
+      "value": 0.3488,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 3440000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "3,440",
+    "original_state_name": "Meghalaya",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "original_cell_text": "-",
+     "note": "The source prints \"-\" for this year."
+    },
+    "sisfs": {
+     "startups_supported": 3,
+     "funds_approved_rs_crore": 0.34,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "3 | 0.340"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 30,
+      "of": 36,
+      "linear": 0.25,
+      "log": 37.39,
+      "x_median": 0.05,
+      "share_pct": 0.04
+     },
+     "per_capita": {
+      "rank": 35,
+      "of": 36,
+      "linear": 0.12,
+      "log": 1.09,
+      "x_median": 0.34
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 29,
+      "of": 33,
+      "linear": 0,
+      "log": 21.8,
+      "x_median": 0,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 29,
+      "of": 33,
+      "linear": 0.02,
+      "log": 23.08,
+      "x_median": 0.01
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.1,
+      "rank": 30,
+      "of": 33
+     },
+     "log": {
+      "score": 20.6,
+      "rank": 29,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 0,
+      "rank": 33,
+      "of": 33
+     },
+     "log": {
+      "score": 11.5,
+      "rank": 32,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Mizoram",
+   "iso": "MZ",
+   "lgd": 15,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 78,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "78",
+     "original_state_name": "Mizoram",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 61.3208,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 0.05,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "0.05",
+     "original_state_name": "MIZORAM",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 33",
+     "provisional": true,
+     "inr_crore": 0.44,
+     "per_capita": {
+      "value": 0.0393,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 1272000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "1,272",
+    "original_state_name": "Mizoram",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 0,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "rounded_zero",
+     "original_cell_text": "0"
+    },
+    "sisfs": {
+     "startups_supported": 9,
+     "funds_approved_rs_crore": 1.8,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "9 | 1.800"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 33,
+      "of": 36,
+      "linear": 0.18,
+      "log": 34.18,
+      "x_median": 0.03,
+      "share_pct": 0.03
+     },
+     "per_capita": {
+      "rank": 29,
+      "of": 36,
+      "linear": 3.29,
+      "log": 20.7,
+      "x_median": 0.67
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 33,
+      "of": 33,
+      "linear": 0,
+      "log": 0,
+      "x_median": 0,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 31,
+      "of": 33,
+      "linear": 0,
+      "log": 3.61,
+      "x_median": 0
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.1,
+      "rank": 32,
+      "of": 33
+     },
+     "log": {
+      "score": 7.7,
+      "rank": 32,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 1.6,
+      "rank": 29,
+      "of": 33
+     },
+     "log": {
+      "score": 11.7,
+      "rank": 31,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Nagaland",
+   "iso": "NL",
+   "lgd": 13,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 131,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "131",
+     "original_state_name": "Nagaland",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 57.1055,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 0.06,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "0.06",
+     "original_state_name": "NAGALAND",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 32",
+     "provisional": true,
+     "inr_crore": 0.52,
+     "per_capita": {
+      "value": 0.0262,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 2294000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "2,294",
+    "original_state_name": "Nagaland",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 0,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "rounded_zero",
+     "original_cell_text": "0"
+    },
+    "sisfs": {
+     "startups_supported": 34,
+     "funds_approved_rs_crore": 5.07,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "34 | 5.070"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 28,
+      "of": 36,
+      "linear": 0.31,
+      "log": 39.61,
+      "x_median": 0.06,
+      "share_pct": 0.05
+     },
+     "per_capita": {
+      "rank": 30,
+      "of": 36,
+      "linear": 2.85,
+      "log": 18.67,
+      "x_median": 0.62
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 32,
+      "of": 33,
+      "linear": 0,
+      "log": 1.25,
+      "x_median": 0,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 33,
+      "of": 33,
+      "linear": 0,
+      "log": 0,
+      "x_median": 0
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.1,
+      "rank": 29,
+      "of": 33
+     },
+     "log": {
+      "score": 11.8,
+      "rank": 31,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 1.4,
+      "rank": 30,
+      "of": 33
+     },
+     "log": {
+      "score": 8.9,
+      "rank": 33,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Odisha",
+   "iso": "OD",
+   "lgd": 21,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 4123,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "4,123",
+     "original_state_name": "Odisha",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 92.2846,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 257.19,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "257.19",
+     "original_state_name": "ODISHA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 17",
+     "provisional": true,
+     "inr_crore": 2054.88,
+     "per_capita": {
+      "value": 5.7567,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 44677000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "44,677",
+    "original_state_name": "Odisha",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 84,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "84"
+    },
+    "sisfs": {
+     "startups_supported": 166,
+     "funds_approved_rs_crore": 18.977,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "166 | 18.977"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 15,
+      "of": 36,
+      "linear": 9.94,
+      "log": 75.79,
+      "x_median": 1.77,
+      "share_pct": 1.72
+     },
+     "per_capita": {
+      "rank": 18,
+      "of": 36,
+      "linear": 6.51,
+      "log": 32.35,
+      "x_median": 1
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 17,
+      "of": 33,
+      "linear": 0.24,
+      "log": 58.62,
+      "x_median": 1,
+      "share_pct": 0.08
+     },
+     "per_capita": {
+      "rank": 23,
+      "of": 33,
+      "linear": 0.29,
+      "log": 48.07,
+      "x_median": 0.18
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 5.1,
+      "rank": 15,
+      "of": 33
+     },
+     "log": {
+      "score": 63.7,
+      "rank": 17,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3.3,
+      "rank": 21,
+      "of": 33
+     },
+     "log": {
+      "score": 39.8,
+      "rank": 23,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Puducherry",
+   "iso": "PY",
+   "lgd": 34,
+   "type": "UT",
+   "metrics": {
+    "startups": {
+     "value": 263,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "263",
+     "original_state_name": "Puducherry",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 149.687,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 77.31,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "77.31",
+     "original_state_name": "PUDUCHERRY",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 24",
+     "provisional": true,
+     "inr_crore": 587,
+     "per_capita": {
+      "value": 44.0011,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 1757000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "1,757",
+    "original_state_name": "Puducherry",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The annual table reports all Union Territories together as \"UTs and Others\"; no separate figure is printed."
+    },
+    "sisfs": {
+     "startups_supported": 8,
+     "funds_approved_rs_crore": 1.206,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "8 | 1.206"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 26,
+      "of": 36,
+      "linear": 0.63,
+      "log": 46.92,
+      "x_median": 0.11,
+      "share_pct": 0.11
+     },
+     "per_capita": {
+      "rank": 13,
+      "of": 36,
+      "linear": 12.49,
+      "log": 46.13,
+      "x_median": 1.63
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 24,
+      "of": 33,
+      "linear": 0.07,
+      "log": 50.38,
+      "x_median": 0.3,
+      "share_pct": 0.02
+     },
+     "per_capita": {
+      "rank": 16,
+      "of": 33,
+      "linear": 2.25,
+      "log": 66.2,
+      "x_median": 1.37
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.3,
+      "rank": 26,
+      "of": 33
+     },
+     "log": {
+      "score": 41.1,
+      "rank": 25,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 7.3,
+      "rank": 12,
+      "of": 33
+     },
+     "log": {
+      "score": 55.9,
+      "rank": 11,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Punjab",
+   "iso": "PB",
+   "lgd": 3,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 2708,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "2,708",
+     "original_state_name": "Punjab",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 86.4678,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 1598.34,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "1,598.34",
+     "original_state_name": "PUNJAB",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 14",
+     "provisional": true,
+     "inr_crore": 12596.25,
+     "per_capita": {
+      "value": 51.0358,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 31318000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "31,318",
+    "original_state_name": "Punjab",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 367,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "367"
+    },
+    "sisfs": {
+     "startups_supported": 81,
+     "funds_approved_rs_crore": 14.226,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "81 | 14.226"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 16,
+      "of": 36,
+      "linear": 6.53,
+      "log": 71.38,
+      "x_median": 1.16,
+      "share_pct": 1.13
+     },
+     "per_capita": {
+      "rank": 22,
+      "of": 36,
+      "linear": 5.91,
+      "log": 30.49,
+      "x_median": 0.94
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 14,
+      "of": 33,
+      "linear": 1.49,
+      "log": 71.16,
+      "x_median": 6.21,
+      "share_pct": 0.47
+     },
+     "per_capita": {
+      "rank": 13,
+      "of": 33,
+      "linear": 2.61,
+      "log": 67.52,
+      "x_median": 1.58
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 4,
+      "rank": 17,
+      "of": 33
+     },
+     "log": {
+      "score": 67.2,
+      "rank": 15,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 4.2,
+      "rank": 17,
+      "of": 33
+     },
+     "log": {
+      "score": 48.6,
+      "rank": 15,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Rajasthan",
+   "iso": "RJ",
+   "lgd": 8,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 8783,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "8,783",
+     "original_state_name": "Rajasthan",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 105.0071,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 3726.78,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "3,726.78",
+     "original_state_name": "RAJASTHAN",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 8",
+     "provisional": true,
+     "inr_crore": 30034.74,
+     "per_capita": {
+      "value": 44.5563,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 83642000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "83,642",
+    "original_state_name": "Rajasthan",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 1009,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "1,009"
+    },
+    "sisfs": {
+     "startups_supported": 169,
+     "funds_approved_rs_crore": 27.555,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "169 | 27.555"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 10,
+      "of": 36,
+      "linear": 21.19,
+      "log": 83.73,
+      "x_median": 3.77,
+      "share_pct": 3.66
+     },
+     "per_capita": {
+      "rank": 16,
+      "of": 36,
+      "linear": 7.84,
+      "log": 36.03,
+      "x_median": 1.14
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 8,
+      "of": 33,
+      "linear": 3.48,
+      "log": 76.96,
+      "x_median": 14.49,
+      "share_pct": 1.09
+     },
+     "per_capita": {
+      "rank": 15,
+      "of": 33,
+      "linear": 2.28,
+      "log": 66.31,
+      "x_median": 1.38
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 12.3,
+      "rank": 9,
+      "of": 33
+     },
+     "log": {
+      "score": 78,
+      "rank": 9,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 5,
+      "rank": 14,
+      "of": 33
+     },
+     "log": {
+      "score": 50.8,
+      "rank": 14,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Sikkim",
+   "iso": "SK",
+   "lgd": 11,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 21,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "21",
+     "original_state_name": "Sikkim",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 29.661,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "The DPIIT state-wise table has no row for this State/UT. That is a gap in the source, not a zero."
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 708000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "708",
+    "original_state_name": "Sikkim",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "No row for this state in the annual table."
+    },
+    "sisfs": {
+     "startups_supported": 2,
+     "funds_approved_rs_crore": 0.2,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "2 | 0.200"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 35,
+      "of": 36,
+      "linear": 0.04,
+      "log": 20.41,
+      "x_median": 0.01,
+      "share_pct": 0.01
+     },
+     "per_capita": {
+      "rank": 36,
+      "of": 36,
+      "linear": 0,
+      "log": 0,
+      "x_median": 0.32
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "coverage": "1/2 metrics",
+    "in_cohort": false,
+    "missing": [
+     "fdi_usd_m"
+    ],
+    "absolute": null,
+    "per_capita": null
+   }
+  },
+  {
+   "state": "Tamil Nadu",
+   "iso": "TN",
+   "lgd": 33,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 15774,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "15,774",
+     "original_state_name": "Tamil Nadu",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 203.4147,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 19343.31,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "19,343.31",
+     "original_state_name": "TAMIL NADU",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 5",
+     "provisional": true,
+     "inr_crore": 156543.77,
+     "per_capita": {
+      "value": 249.443,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": 655,
+     "unit": "USD million",
+     "year": "2025",
+     "period_start": "2025-01-01",
+     "period_end": null,
+     "period_type": "publisher's 2025 window; cutoff date not printed",
+     "status": "reported",
+     "original_cell_text": "$655M",
+     "original_state_name": "Tamil Nadu",
+     "source_id": "tracxn-tamil-nadu-2025",
+     "locator": "Headline total",
+     "provisional": false,
+     "read_from": "publisher page",
+     "note": "\"A total of $655M was raised by tech companies in Tamil Nadu in 2025.\"",
+     "per_capita": {
+      "value": 8.4466,
+      "unit": "USD per resident"
+     }
+    }
+   },
+   "population": {
+    "value": 77546000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "77,546",
+    "original_state_name": "Tamil Nadu",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 4724,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "4,724"
+    },
+    "sisfs": {
+     "startups_supported": 450,
+     "funds_approved_rs_crore": 69.159,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "450 | 69.159"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 6,
+      "of": 36,
+      "linear": 38.06,
+      "log": 89.87,
+      "x_median": 6.78,
+      "share_pct": 6.57
+     },
+     "per_capita": {
+      "rank": 11,
+      "of": 36,
+      "linear": 18.08,
+      "log": 54.87,
+      "x_median": 2.22
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 5,
+      "of": 33,
+      "linear": 18.06,
+      "log": 88.26,
+      "x_median": 75.21,
+      "share_pct": 5.66
+     },
+     "per_capita": {
+      "rank": 7,
+      "of": 33,
+      "linear": 12.78,
+      "log": 81.66,
+      "x_median": 7.74
+     }
+    },
+    "funding_usd_m": {
+     "absolute": {
+      "rank": null,
+      "of": null,
+      "linear": 11.76,
+      "log": 36.73,
+      "x_median": 0.42
+     },
+     "per_capita": {
+      "rank": null,
+      "of": null,
+      "linear": 4.77,
+      "log": 14.74,
+      "x_median": 0.61
+     }
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 28,
+      "rank": 6,
+      "of": 33
+     },
+     "log": {
+      "score": 87.6,
+      "rank": 5,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 15.4,
+      "rank": 9,
+      "of": 33
+     },
+     "log": {
+      "score": 68,
+      "rank": 9,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Telangana",
+   "iso": "TS",
+   "lgd": 36,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 13622,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "13,622",
+     "original_state_name": "Telangana",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 352.5727,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 13020.89,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "13,020.89",
+     "original_state_name": "TELANGANA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 7",
+     "provisional": true,
+     "inr_crore": 106141.56,
+     "per_capita": {
+      "value": 337.0144,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": 236,
+     "unit": "USD million",
+     "year": "2025",
+     "period_start": "2025-01-01",
+     "period_end": null,
+     "period_type": "publisher's 2025 window; cutoff date not printed",
+     "status": "reported",
+     "original_cell_text": "$236M",
+     "original_state_name": "Telangana",
+     "source_id": "tracxn-telangana-2025",
+     "locator": "Headline total",
+     "provisional": false,
+     "read_from": "publisher page",
+     "note": "\"A total of $236M was raised in 2025, marking a drop of 64% compared to the $674M raised in 2024\"",
+     "per_capita": {
+      "value": 6.1083,
+      "unit": "USD per resident"
+     }
+    }
+   },
+   "population": {
+    "value": 38636000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "38,636",
+    "original_state_name": "Telangana",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 2253,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "2,253"
+    },
+    "sisfs": {
+     "startups_supported": 279,
+     "funds_approved_rs_crore": 50.549,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "279 | 50.549"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 7,
+      "of": 36,
+      "linear": 32.87,
+      "log": 88.33,
+      "x_median": 5.85,
+      "share_pct": 5.67
+     },
+     "per_capita": {
+      "rank": 5,
+      "of": 36,
+      "linear": 33.59,
+      "log": 70.55,
+      "x_median": 3.84
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 7,
+      "of": 33,
+      "linear": 12.16,
+      "log": 85.54,
+      "x_median": 50.63,
+      "share_pct": 3.81
+     },
+     "per_capita": {
+      "rank": 6,
+      "of": 33,
+      "linear": 17.27,
+      "log": 84.34,
+      "x_median": 10.46
+     }
+    },
+    "funding_usd_m": {
+     "absolute": {
+      "rank": null,
+      "of": null,
+      "linear": 0,
+      "log": 0,
+      "x_median": 0.15
+     },
+     "per_capita": {
+      "rank": null,
+      "of": null,
+      "linear": 0,
+      "log": 0,
+      "x_median": 0.44
+     }
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 22.5,
+      "rank": 8,
+      "of": 33
+     },
+     "log": {
+      "score": 85.3,
+      "rank": 7,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 25.4,
+      "rank": 8,
+      "of": 33
+     },
+     "log": {
+      "score": 77.3,
+      "rank": 8,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Tripura",
+   "iso": "TR",
+   "lgd": 16,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 233,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "233",
+     "original_state_name": "Tripura",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 54.6948,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 1.45,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "1.45",
+     "original_state_name": "TRIPURA",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 28",
+     "provisional": true,
+     "inr_crore": 11.72,
+     "per_capita": {
+      "value": 0.3404,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 4260000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "4,260",
+    "original_state_name": "Tripura",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 0,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "rounded_zero",
+     "original_cell_text": "0"
+    },
+    "sisfs": {
+     "startups_supported": null,
+     "funds_approved_rs_crore": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_reported",
+     "note": "Not listed in the source annexure. Not listed is not the same as zero."
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 27,
+      "of": 36,
+      "linear": 0.56,
+      "log": 45.65,
+      "x_median": 0.1,
+      "share_pct": 0.1
+     },
+     "per_capita": {
+      "rank": 32,
+      "of": 36,
+      "linear": 2.6,
+      "log": 17.44,
+      "x_median": 0.6
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 28,
+      "of": 33,
+      "linear": 0,
+      "log": 23.1,
+      "x_median": 0.01,
+      "share_pct": 0
+     },
+     "per_capita": {
+      "rank": 30,
+      "of": 33,
+      "linear": 0.02,
+      "log": 22.86,
+      "x_median": 0.01
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 0.3,
+      "rank": 27,
+      "of": 33
+     },
+     "log": {
+      "score": 26.6,
+      "rank": 27,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 1.3,
+      "rank": 31,
+      "of": 33
+     },
+     "log": {
+      "score": 19.7,
+      "rank": 29,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Uttar Pradesh",
+   "iso": "UP",
+   "lgd": 9,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 23678,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "23,678",
+     "original_state_name": "Uttar Pradesh",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 97.4969,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 3020.48,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "3,020.48",
+     "original_state_name": "UTTAR PRADESH",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 9",
+     "provisional": true,
+     "inr_crore": 24707.61,
+     "per_capita": {
+      "value": 12.4372,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 242859000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "242,859",
+    "original_state_name": "Uttar Pradesh",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 950,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "950"
+    },
+    "sisfs": {
+     "startups_supported": 327,
+     "funds_approved_rs_crore": 47.038,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "327 | 47.038"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 3,
+      "of": 36,
+      "linear": 57.13,
+      "log": 94.13,
+      "x_median": 10.17,
+      "share_pct": 9.86
+     },
+     "per_capita": {
+      "rank": 17,
+      "of": 36,
+      "linear": 7.06,
+      "log": 33.91,
+      "x_median": 1.06
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 9,
+      "of": 33,
+      "linear": 2.82,
+      "log": 75.52,
+      "x_median": 11.74,
+      "share_pct": 0.88
+     },
+     "per_capita": {
+      "rank": 20,
+      "of": 33,
+      "linear": 0.64,
+      "log": 54.93,
+      "x_median": 0.39
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 30,
+      "rank": 5,
+      "of": 33
+     },
+     "log": {
+      "score": 84,
+      "rank": 8,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3.8,
+      "rank": 18,
+      "of": 33
+     },
+     "log": {
+      "score": 44.1,
+      "rank": 18,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "Uttarakhand",
+   "iso": "UK",
+   "lgd": 5,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 1970,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "1,970",
+     "original_state_name": "Uttarakhand",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 164.2625,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 242.16,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "242.16",
+     "original_state_name": "UTTARAKHAND",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 19",
+     "provisional": true,
+     "inr_crore": 1906.92,
+     "per_capita": {
+      "value": 20.1918,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 11993000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "11,993",
+    "original_state_name": "Uttaranchal",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 20,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "20"
+    },
+    "sisfs": {
+     "startups_supported": 32,
+     "funds_approved_rs_crore": 5.29,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "32 | 5.290"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 20,
+      "of": 36,
+      "linear": 4.75,
+      "log": 68.05,
+      "x_median": 0.85,
+      "share_pct": 0.82
+     },
+     "per_capita": {
+      "rank": 12,
+      "of": 36,
+      "linear": 14,
+      "log": 48.78,
+      "x_median": 1.79
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 19,
+      "of": 33,
+      "linear": 0.23,
+      "log": 58.21,
+      "x_median": 0.94,
+      "share_pct": 0.07
+     },
+     "per_capita": {
+      "rank": 19,
+      "of": 33,
+      "linear": 1.03,
+      "log": 59.25,
+      "x_median": 0.63
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 2.5,
+      "rank": 20,
+      "of": 33
+     },
+     "log": {
+      "score": 58.6,
+      "rank": 19,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 7.5,
+      "rank": 11,
+      "of": 33
+     },
+     "log": {
+      "score": 53.7,
+      "rank": 12,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  },
+  {
+   "state": "West Bengal",
+   "iso": "WB",
+   "lgd": 19,
+   "type": "State",
+   "metrics": {
+    "startups": {
+     "value": 7775,
+     "unit": "entities recognised as startups",
+     "year": "30 Jun 2026",
+     "period_start": "2016-01-16",
+     "period_end": "2026-06-30",
+     "period_type": "cumulative stock at snapshot date",
+     "status": "reported",
+     "original_cell_text": "7,775",
+     "original_state_name": "West Bengal",
+     "source_id": "ls-usq-1446-2026",
+     "locator": "Annexure-I",
+     "provisional": false,
+     "per_capita": {
+      "value": 77.3463,
+      "unit": "per million residents"
+     }
+    },
+    "fdi_usd_m": {
+     "value": 2137.03,
+     "unit": "USD million",
+     "year": "Oct 2019 - Mar 2026",
+     "period_start": "2019-10-01",
+     "period_end": "2026-03-31",
+     "period_type": "cumulative inflow over the window",
+     "status": "reported",
+     "original_cell_text": "2,137.03",
+     "original_state_name": "WEST BENGAL",
+     "source_id": "dpiit-fdi-factsheet-2026-03",
+     "locator": "Annexure-C, Sr. No. 11",
+     "provisional": true,
+     "inr_crore": 16949.75,
+     "per_capita": {
+      "value": 21.2593,
+      "unit": "USD per resident"
+     }
+    },
+    "funding_usd_m": {
+     "value": null,
+     "year": null,
+     "source_id": null,
+     "status": "not_available",
+     "note": "No citable public state-level figure was found for this State/UT."
+    }
+   },
+   "population": {
+    "value": 100522000,
+    "year": "1 Mar 2026 (projected)",
+    "status": "projected",
+    "source_id": "ncp-population-projections-2011-2036",
+    "original_cell_text": "100,522",
+    "original_state_name": "West Bengal",
+    "unit": "persons"
+   },
+   "context": {
+    "fdi_fy2025_26_usd_m": {
+     "value": 229,
+     "year": "FY2025-26",
+     "source_id": "ls-usq-328-2026",
+     "status": "reported",
+     "original_cell_text": "229"
+    },
+    "sisfs": {
+     "startups_supported": 62,
+     "funds_approved_rs_crore": 9.085,
+     "year": "30 Jun 2026",
+     "source_id": "ls-usq-1446-2026",
+     "status": "reported",
+     "original_cell_text": "62 | 9.085"
+    }
+   },
+   "scores": {
+    "startups": {
+     "absolute": {
+      "rank": 12,
+      "of": 36,
+      "linear": 18.76,
+      "log": 82.45,
+      "x_median": 3.34,
+      "share_pct": 3.24
+     },
+     "per_capita": {
+      "rank": 25,
+      "of": 36,
+      "linear": 4.96,
+      "log": 27.32,
+      "x_median": 0.84
+     }
+    },
+    "fdi_usd_m": {
+     "absolute": {
+      "rank": 11,
+      "of": 33,
+      "linear": 2,
+      "log": 73.15,
+      "x_median": 8.31,
+      "share_pct": 0.63
+     },
+     "per_capita": {
+      "rank": 18,
+      "of": 33,
+      "linear": 1.09,
+      "log": 59.71,
+      "x_median": 0.66
+     }
+    },
+    "funding_usd_m": {
+     "absolute": null,
+     "per_capita": null
+    }
+   },
+   "composite": {
+    "absolute": {
+     "linear": {
+      "score": 10.4,
+      "rank": 11,
+      "of": 33
+     },
+     "log": {
+      "score": 75.3,
+      "rank": 11,
+      "of": 33
+     }
+    },
+    "per_capita": {
+     "linear": {
+      "score": 3,
+      "rank": 24,
+      "of": 33
+     },
+     "log": {
+      "score": 43.1,
+      "rank": 20,
+      "of": 33
+     }
+    },
+    "coverage": "2/2 metrics",
+    "in_cohort": true,
+    "missing": []
+   }
+  }
+ ]
+}

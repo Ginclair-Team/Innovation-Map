@@ -1,0 +1,37 @@
+iso,state,type,startups,fdi_usd_m,funding_usd_m,population,composite_cohort
+AN,"Andaman and Nicobar Islands",UT,reported,not_reported,not_available,projected,no
+AP,"Andhra Pradesh",State,reported,reported,not_available,projected,yes
+AR,"Arunachal Pradesh",State,reported,reported,not_available,projected,yes
+AS,"Assam",State,reported,reported,not_available,projected,yes
+BR,"Bihar",State,reported,reported,not_available,projected,yes
+CH,"Chandigarh",UT,reported,reported,not_available,projected,yes
+CG,"Chhattisgarh",State,reported,reported,not_available,projected,yes
+DH,"Dadra and Nagar Haveli and Daman and Diu",UT,reported,reported,not_available,projected,yes
+DL,"Delhi",UT,reported,reported,not_available,projected,yes
+GA,"Goa",State,reported,reported,not_available,projected,yes
+GJ,"Gujarat",State,reported,reported,not_available,projected,yes
+HR,"Haryana",State,reported,reported,not_available,projected,yes
+HP,"Himachal Pradesh",State,reported,reported,not_available,projected,yes
+JK,"Jammu and Kashmir",UT,reported,reported,not_available,projected,yes
+JH,"Jharkhand",State,reported,reported,not_available,projected,yes
+KA,"Karnataka",State,reported,reported,reported,projected,yes
+KL,"Kerala",State,reported,reported,not_available,projected,yes
+LA,"Ladakh",UT,reported,reported,not_available,projected,yes
+LD,"Lakshadweep",UT,reported,not_reported,not_available,projected,no
+MP,"Madhya Pradesh",State,reported,reported,not_available,projected,yes
+MH,"Maharashtra",State,reported,reported,reported,projected,yes
+MN,"Manipur",State,reported,reported,not_available,projected,yes
+ML,"Meghalaya",State,reported,reported,not_available,projected,yes
+MZ,"Mizoram",State,reported,reported,not_available,projected,yes
+NL,"Nagaland",State,reported,reported,not_available,projected,yes
+OD,"Odisha",State,reported,reported,not_available,projected,yes
+PY,"Puducherry",UT,reported,reported,not_available,projected,yes
+PB,"Punjab",State,reported,reported,not_available,projected,yes
+RJ,"Rajasthan",State,reported,reported,not_available,projected,yes
+SK,"Sikkim",State,reported,not_reported,not_available,projected,no
+TN,"Tamil Nadu",State,reported,reported,reported,projected,yes
+TS,"Telangana",State,reported,reported,reported,projected,yes
+TR,"Tripura",State,reported,reported,not_available,projected,yes
+UP,"Uttar Pradesh",State,reported,reported,not_available,projected,yes
+UK,"Uttarakhand",State,reported,reported,not_available,projected,yes
+WB,"West Bengal",State,reported,reported,not_available,projected,yes

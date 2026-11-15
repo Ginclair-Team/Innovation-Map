@@ -1,0 +1,42 @@
+# source_id: ls-usq-1446-2026
+# source: Lok Sabha Unstarred Question No. 1446, "Startup India Initiative", answered 28 July 2026
+# url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1446_N4i3CT.pdf
+# table: Annexure-III - State/UT-wise startups supported by selected incubators under the Startup India Seed Fund Scheme as on 30 June 2026 (PDF page 6)
+# unit: startups_supported = count; funds_approved = Rs. crore APPROVED (not disbursed)
+# stated_total_startups: 4245     (answer text, part (c))
+# stated_total_funds: 706.33      (answer text, part (c), Rs. crore)
+# note: States/UTs absent from the annexure are NOT zero - they are simply not listed.
+# transcribed: 2026-11-15 from the PDF text layer of data/raw/startups/LS_AU1446.pdf; re-check on refresh
+state_name,startups_supported,funds_approved_rs_crore
+Andaman and Nicobar Islands,1,0.040
+Andhra Pradesh,99,13.965
+Arunachal Pradesh,2,0.300
+Assam,52,7.479
+Bihar,61,10.255
+Chandigarh,19,3.240
+Chhattisgarh,30,3.896
+Delhi,293,50.577
+Goa,29,4.355
+Gujarat,294,51.686
+Haryana,203,34.720
+Himachal Pradesh,26,4.220
+Jammu and Kashmir,22,3.960
+Jharkhand,22,3.945
+Karnataka,542,104.869
+Kerala,102,17.336
+Madhya Pradesh,152,22.574
+Maharashtra,665,117.318
+Manipur,9,1.100
+Meghalaya,3,0.340
+Mizoram,9,1.800
+Nagaland,34,5.070
+Odisha,166,18.977
+Puducherry,8,1.206
+Punjab,81,14.226
+Rajasthan,169,27.555
+Sikkim,2,0.200
+Tamil Nadu,450,69.159
+Telangana,279,50.549
+Uttar Pradesh,327,47.038
+Uttarakhand,32,5.290
+West Bengal,62,9.085

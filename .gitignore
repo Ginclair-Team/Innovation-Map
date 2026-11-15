@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vercel/
+*.log
+# large or re-downloadable source files; the transcribed CSVs next to them ARE committed
+data/raw/boundaries/extracted/
+data/raw/boundaries/*.7z
+data/raw/population/*.pdf

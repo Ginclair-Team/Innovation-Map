@@ -1,0 +1,44 @@
+# source_id: ls-usq-1446-2026
+# source: Lok Sabha Unstarred Question No. 1446, "Startup India Initiative", answered 28 July 2026
+# url: https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1446_N4i3CT.pdf
+# table: Annexure-I - State/UT-wise details of entities recognized as startups by DPIIT as on 30 June 2026 (PDF page 4)
+# unit: count of entities recognised as startups (cumulative recognitions as on the snapshot date)
+# stated_total: 240092   (answer text, part (a): "2,40,092 entities have been recognised as startups")
+# transcribed: 2026-11-15 from the PDF text layer of data/raw/startups/LS_AU1446.pdf; re-check on refresh
+state_name,original_cell_text
+Andaman and Nicobar Islands,108
+Andhra Pradesh,"4,707"
+Arunachal Pradesh,102
+Assam,"2,351"
+Bihar,"5,527"
+Chandigarh,740
+Chhattisgarh,"2,587"
+Dadra and Nagar Haveli and Daman and Diu,102
+Delhi,"22,336"
+Goa,861
+Gujarat,"21,019"
+Haryana,"12,482"
+Himachal Pradesh,898
+Jammu and Kashmir,"1,628"
+Jharkhand,"2,304"
+Karnataka,"24,026"
+Kerala,"9,092"
+Ladakh,25
+Lakshadweep,3
+Madhya Pradesh,"8,194"
+Maharashtra,"41,440"
+Manipur,295
+Meghalaya,106
+Mizoram,78
+Nagaland,131
+Odisha,"4,123"
+Puducherry,263
+Punjab,"2,708"
+Rajasthan,"8,783"
+Sikkim,21
+Tamil Nadu,"15,774"
+Telangana,"13,622"
+Tripura,233
+Uttar Pradesh,"23,678"
+Uttarakhand,"1,970"
+West Bengal,"7,775"

@@ -1,0 +1,13 @@
+# Startup funding by state - PARTIAL COVERAGE. One publisher (Tracxn), one edition (state "Tech Annual Funding Report - 2025").
+# Universe: funding raised by TECH companies headquartered in the state, as defined by Tracxn. Not all startups, not all private capital.
+# Window: the publisher's "2025". The state pages do not print a data cutoff. Tracxn's national 2025 report states a 1 Jan - 15 Dec 2025 window,
+#         so "2025" here must not be read as a guaranteed full calendar year.
+# Values are the publisher's rounded headline figures, kept as printed in original_cell_text. usd_million is the same figure in USD million.
+# A state appears here ONLY if a figure could be read from the publisher's own page, or from a named press report quoting that report.
+# Every other state/UT has no citable figure: it is "not_available", never zero, never estimated.
+# transcribed: 2026-11-15; re-check each URL on refresh
+state_name,original_cell_text,usd_million,source_id,read_from,publication_date,note
+Maharashtra,$2.5B,2500,tracxn-maharashtra-2025,publisher page,2026-02-09,"""A total of $2.5B was raised by Maharashtra Tech companies in 2025."""
+Karnataka,$3.8 billion,3800,tracxn-karnataka-2025-via-theprint,press report quoting the publisher's report,2026-02-05,"ThePrint, citing the Tracxn Geo Annual Report - Karnataka Tech 2025: ""Karnataka-based technology companies raised $3.8 billion in the calendar year 2025."" The publisher's own page was not read. One other outlet (Analytics India Magazine) reports $3.6 billion from the same report."
+Tamil Nadu,$655M,655,tracxn-tamil-nadu-2025,publisher page,2026-02-12,"""A total of $655M was raised by tech companies in Tamil Nadu in 2025."""
+Telangana,$236M,236,tracxn-telangana-2025,publisher page,2026-01-29,"""A total of $236M was raised in 2025, marking a drop of 64% compared to the $674M raised in 2024"""

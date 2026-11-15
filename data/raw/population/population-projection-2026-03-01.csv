@@ -1,0 +1,47 @@
+# source_id: ncp-population-projections-2011-2036
+# source: Population Projections for India and States 2011-2036, Report of the Technical Group on Population Projections (National Commission on Population, MoHFW). Cover date of this copy: November 2019.
+# url: https://nhm.gov.in/New_Updates_2018/Report_Population_Projection_2019.pdf
+# table: Table 21 - Projected total population as on 1st March, India, States, Union Territories: 2011-2036 ('000), column "2026 Persons" (PDF page 264)
+# unit: thousands of persons. PROJECTED for 1 March 2026 from the 2011 Census base - not an enumeration.
+# stated_total: 1423435   ("INDIA" row, thousands)
+# note: the source lists "Dadra & Nagar Haveli" and "Daman Diu" separately; both are mapped to the merged UT and summed by the build.
+# note: names are kept as printed ("Uttaranchal", "NCT of Delhi", "Chandigarh *").
+# transcribed: 2026-11-15 from the PDF text layer of data/raw/population/Report_Population_Projection_2019.pdf; re-check on refresh
+sr_no,state_name,persons_2026_thousands_text
+01,Jammu & Kashmir (UT),"13,896"
+02,Himachal Pradesh,"7,579"
+03,Punjab,"31,318"
+04,Chandigarh *,"1,267"
+05,Uttaranchal,"11,993"
+06,Haryana,"31,299"
+07,NCT of Delhi,"22,540"
+08,Rajasthan,"83,642"
+09,Uttar Pradesh,"242,859"
+10,Bihar,"132,265"
+11,Sikkim,708
+12,Arunachal Pradesh,"1,604"
+13,Nagaland,"2,294"
+14,Manipur,"3,311"
+15,Mizoram,"1,272"
+16,Tripura,"4,260"
+17,Meghalaya,"3,440"
+18,Assam,"36,717"
+19,West Bengal,"100,522"
+20,Jharkhand,"40,958"
+21,Odisha,"44,677"
+22,Chhattisgarh,"31,211"
+23,Madhya Pradesh,"89,673"
+24,Gujarat,"74,086"
+25,Dadra & Nagar Haveli,836
+26,Maharashtra,"129,308"
+27,Andhra Pradesh,"53,709"
+28,Karnataka,"68,962"
+29,Goa,"1,598"
+30,Daman Diu,705
+31,Lakshadweep,70
+32,Kerala,"36,207"
+33,Tamil Nadu,"77,546"
+34,Puducherry,"1,757"
+35,Andaman & Nicobar Islands,406
+36,Telangana,"38,636"
+37,Ladakh,305
