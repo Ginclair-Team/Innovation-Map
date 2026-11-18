@@ -1,4 +1,5 @@
 # India Innovation Density Map
+<img width="1200" height="630" alt="og-image" src="https://github.com/user-attachments/assets/cf4b14bd-a641-48ba-99e9-541391a792eb" />
 
 A static, single-page choropleth of India's 36 states and union territories: DPIIT-recognised startups, FDI equity inflow, and (partial) tech startup funding, plus a two-metric experimental index.
 
